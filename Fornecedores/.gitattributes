@@ -1,0 +1,15 @@
+# Ignorar na estatística de linguagem
+*.log linguagem-diff
+*.bat linguagem-diff
+*.ps1 linguagem-diff
+*.sh linguagem-diff
+*.txt linguagem-diff
+*.json linguagem-diff
+
+# Forçar Python como linguagem principal
+*.py linguagem=python
+
+# Arquivos do projeto (opcional)
+*.jproj linguagem-diff
+*.xaml linguagem-diff
+*.docx linguagem-diff
