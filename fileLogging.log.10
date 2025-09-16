@@ -1,0 +1,220 @@
+2025-09-16 15:44:05,408 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,442 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,442 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:05,514 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:05,515 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,515 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,515 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:05,516 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:05,517 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:05,578 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:05,578 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:05,578 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,596 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,596 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,618 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,618 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:05,686 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:05,686 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,686 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,686 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:05,687 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:05,745 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:05,746 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:05,746 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,770 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,770 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,793 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,793 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:05,858 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:05,858 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,858 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:05,859 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:05,859 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:05,859 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:05,925 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:05,926 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:05,926 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,945 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:05,946 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,977 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:05,978 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:06,049 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:06,049 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,049 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,049 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:06,050 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:06,111 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:06,112 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:06,112 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,133 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,133 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,174 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,174 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:06,240 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:06,241 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,241 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,241 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:06,241 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:06,241 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:06,303 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:06,304 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:06,304 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,326 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,326 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,354 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,354 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:06,424 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:06,424 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,424 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,424 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:06,424 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:06,487 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:06,487 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:06,488 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,509 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,510 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,547 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,548 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:06,618 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:06,618 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,619 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,619 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:06,619 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:06,619 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:06,680 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:06,681 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:06,681 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,715 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,715 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,753 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,753 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:06,822 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:06,822 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,822 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:06,823 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:06,823 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:06,888 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:06,889 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:06,889 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,932 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:06,932 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,976 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:06,976 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:07,052 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:07,052 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,053 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,053 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:07,053 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:07,053 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:07,122 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:07,122 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:07,122 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,169 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,170 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,219 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,219 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:07,301 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:07,301 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,302 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,302 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:07,302 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:07,367 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:07,368 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:07,368 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,417 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,417 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,469 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,470 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:07,551 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:07,551 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,551 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,551 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:07,552 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:07,552 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:07,621 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:07,621 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:07,621 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,664 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,664 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,712 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,712 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:07,779 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:07,780 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,780 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:07,780 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:07,780 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:07,849 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:07,849 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:07,850 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,902 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:07,902 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,953 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:07,954 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:08,027 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:08,027 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,027 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,028 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:08,028 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:08,028 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:08,098 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:08,098 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:08,098 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,132 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,132 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,158 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,158 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:08,224 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:08,225 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,225 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,225 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:08,225 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:08,290 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:08,290 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:08,290 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,331 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,331 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,370 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,370 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:08,441 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:08,442 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,442 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,442 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:08,442 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:08,442 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:08,507 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:08,507 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:08,508 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,555 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,555 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,594 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,595 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:08,665 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:08,665 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,665 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,666 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:08,666 - Cadastro de Forncedores - INFO - Start: Click in BotaoPF element
+2025-09-16 15:44:08,733 - Cadastro de Forncedores - INFO - End: Click in BotaoPF element
+2025-09-16 15:44:08,734 - Cadastro de Forncedores - INFO - End: If Condition
+2025-09-16 15:44:08,734 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,780 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:08,781 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,830 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:08,830 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - Start: If Condition
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - Start: Else
+2025-09-16 15:44:08,905 - Cadastro de Forncedores - INFO - Start: Click in BotaoPJ 
+2025-09-16 15:44:08,972 - Cadastro de Forncedores - INFO - End: Click in BotaoPJ 
+2025-09-16 15:44:08,972 - Cadastro de Forncedores - INFO - End: Else
+2025-09-16 15:44:08,972 - Cadastro de Forncedores - INFO - Start: Type Into BotaoNomeRazao field
+2025-09-16 15:44:09,010 - Cadastro de Forncedores - INFO - End: Type Into BotaoNomeRazao field
+2025-09-16 15:44:09,011 - Cadastro de Forncedores - INFO - Start: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:09,048 - Cadastro de Forncedores - INFO - End: Type Into BotaoCpfCnpj field
+2025-09-16 15:44:09,059 - Cadastro de Forncedores - INFO - Start: Click in BotaoEnviar element
+2025-09-16 15:44:09,130 - Cadastro de Forncedores - INFO - End: Click in BotaoEnviar element
+2025-09-16 15:44:09,130 - Cadastro de Forncedores - INFO - End: Entrada dos dados do Fornecedor
+2025-09-16 15:44:09,131 - Cadastro de Forncedores - INFO - Start: Entrada dos dados do Fornecedor
+2025-09-16 15:44:09,131 - Cadastro de Forncedores - INFO - Start: If Condition
