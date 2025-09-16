@@ -1,0 +1,281 @@
+﻿<Activity mc:Ignorable="sap sap2010 sads" x:Class="JornadaRPA.Bot" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap2010:WorkflowViewState.IdRef="JornadaRPAStudio.Workflow_1"
+ xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities"
+ xmlns:jer="clr-namespace:JornadaRPA.Excel.Read_Excel;assembly=JornadaRPA.Excel"
+ xmlns:jkt="clr-namespace:JornadaRPA.Keyboard.Type_Into;assembly=JornadaRPA.Keyboard"
+ xmlns:jll="clr-namespace:JornadaRPA.Logger.LoggerConfig;assembly=JornadaRPA.Logger"
+ xmlns:jlw="clr-namespace:JornadaRPA.Logger.WriteLog;assembly=JornadaRPA.Logger"
+ xmlns:jmc="clr-namespace:JornadaRPA.Mouse.Click;assembly=JornadaRPA.Mouse"
+ xmlns:jpe="clr-namespace:JornadaRPA.Python.Else;assembly=JornadaRPA.Python"
+ xmlns:jpf="clr-namespace:JornadaRPA.Python.ForEach;assembly=JornadaRPA.Python"
+ xmlns:jpi="clr-namespace:JornadaRPA.Python.If_Container;assembly=JornadaRPA.Python"
+ xmlns:jpi1="clr-namespace:JornadaRPA.Python.If;assembly=JornadaRPA.Python"
+ xmlns:jwe="clr-namespace:JornadaRPA.Web.Element_Library;assembly=JornadaRPA.Web"
+ xmlns:jwf="clr-namespace:JornadaRPA.Web.Find_Element;assembly=JornadaRPA.Web"
+ xmlns:jwf1="clr-namespace:JornadaRPA.Web.Form_Element_Action_Web;assembly=JornadaRPA.Web"
+ xmlns:jwo="clr-namespace:JornadaRPA.Web.OpenBrowser;assembly=JornadaRPA.Web"
+ xmlns:jww="clr-namespace:JornadaRPA.Web.Wait;assembly=JornadaRPA.Web"
+ xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+ xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger"
+ xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation"
+ xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation"
+ xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib"
+ xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Sequence sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <jll:LoggerConfig sap2010:Annotation.AnnotationText="É o gravador da automoção.Ele registra tudo o que acontece durante a execução do robô&#xD;&#xA;&#xD;&#xA;- É o diario do robô" DisplayName="Diario Debug" sap2010:WorkflowViewState.IdRef="LoggerConfig_1" automaticoLogger="True" backupCount="10" description="&quot;Cadastro de Forncedores&quot;" fileLogger="&quot;fileLogging.log&quot;" formatter="&quot;%(asctime)s - %(name)s - %(levelname)s - %(message)s&quot;" instance="loggerBot" loggerLevel="DEBUG" maxBytes="100000" />
+    <jwo:OpenBrowser download_folder_path="{x:Null}" user_data_dir="{x:Null}" sap2010:Annotation.AnnotationText="Abre o navegador automaticamente e acessa o site do sistema de cadastro de fornecedores. " DisplayName="Abrir o site de cadastro de Fornecedores" Headless="False" sap2010:WorkflowViewState.IdRef="OpenBrowser_1" Url="&quot;https://jornadarpa.com.br/alunos/desafios/cadfor25/&quot;" WebDriverPath="''" anonimous="False" arguments="[]" createInstance="True" inBrowser="FIREFOX" outBrowser="webBot" page_load_strategy="Normal" upWebDriver="True" />
+    <jwe:Element_Library InstanceBrowser="{x:Null}" sap2010:Annotation.AnnotationText="Lozaliza e indentifica os campos de login na pagina para que o robô saiba onde clicar e digitar." DisplayName="Mapeamento dos elementos da pagina de Login" sap2010:WorkflowViewState.IdRef="Element_Library_1" by="ID" ensure_clickable="True" ensure_visible="True" instance_element="idbtnLogin" selector="&quot;btnLogin&quot;" waiting_time="0">
+      <jwe:Element_Library.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <Sequence DisplayName="Element list" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <jwf:Find_Element DisplayName="Campo Email" sap2010:WorkflowViewState.IdRef="Find_Element_1" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="CampoEmail" selector="&quot;usuario&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Campo Senha" sap2010:WorkflowViewState.IdRef="Find_Element_2" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="CampoSenha" selector="&quot;senha&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Botão LGPD" sap2010:WorkflowViewState.IdRef="Find_Element_3" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoLGPD" selector="&quot;lgpd&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Botão Login" sap2010:WorkflowViewState.IdRef="Find_Element_4" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="Botao" selector="&quot;btnLogin&quot;" waiting_time="1000" />
+          </Sequence>
+        </ActivityAction>
+      </jwe:Element_Library.Body>
+    </jwe:Element_Library>
+    <jwf1:Form_Element_Action_Web Element="{x:Null}" element_instance="{x:Null}" instance_element="{x:Null}" text="{x:Null}" value="{x:Null}" sap2010:Annotation.AnnotationText="Preenche automaticamente os campos de e-mail e senha na página de login." DisplayName="Entrada de dados de Login" sap2010:WorkflowViewState.IdRef="Form_Element_Action_Web_1" button="Left" by="Index" click_before="False" clicks="One" empty_field="False" interval="0" interval_between_clicks="0" type="Kb_Type" wait_after="300" with_spaces="True">
+      <jwf1:Form_Element_Action_Web.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <Sequence DisplayName="Action list" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <jkt:Type_Into DisplayName="Digitação do campo Email" sap2010:WorkflowViewState.IdRef="Type_Into_1" click_before="False" element_instance="CampoEmail" empty_field="False" interval="0" text="&quot;participante@desafiosrpa.com.br&quot;" type="Send_Keys" with_spaces="True" />
+            <jkt:Type_Into DisplayName="Digitação do campo Senha" sap2010:WorkflowViewState.IdRef="Type_Into_2" click_before="False" element_instance="CampoSenha" empty_field="False" interval="0" text="&quot;evento&quot;" type="Send_Keys" with_spaces="True" />
+            <jmc:Click DisplayName="Click in BotaoLGPD element" Element="BotaoLGPD" sap2010:WorkflowViewState.IdRef="Click_1" button="Left" clicks="One" interval_between_clicks="0" wait_after="300" />
+            <jmc:Click DisplayName="Click in Botao element" Element="Botao" sap2010:WorkflowViewState.IdRef="Click_2" button="Left" clicks="One" interval_between_clicks="0" wait_after="300" />
+          </Sequence>
+        </ActivityAction>
+      </jwf1:Form_Element_Action_Web.Body>
+    </jwf1:Form_Element_Action_Web>
+    <jer:Read_Excel sap2010:Annotation.AnnotationText="Pega e abre uma planilha excel e lê os dados dos fornecedores que serão cadastrados." DisplayName="Ler dados da planilha de Fornecedores" sap2010:WorkflowViewState.IdRef="Read_Excel_1" dataList="listaFornecedores" dataType="As_List" file_or_path="&quot;C:\Users\JEFFERSON LIMA\Downloads\Lista_exemplo.xlsx&quot;" header="True" instance="excelBot" instanceExcel="True" sheet="&quot;lista&quot;" />
+    <jwe:Element_Library InstanceBrowser="{x:Null}" sap2010:Annotation.AnnotationText="Localiza todos os campos da tela de cadastro onde os dados serão preenchidos." DisplayName="Mapeamento dos elementos de cadastro dos Fornecedores" sap2010:WorkflowViewState.IdRef="Element_Library_2" by="ID" ensure_clickable="True" ensure_visible="True" instance_element="idbtnEnviar" selector="&quot;btnEnviar&quot;" waiting_time="0">
+      <jwe:Element_Library.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <Sequence DisplayName="Element list" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <jwf:Find_Element DisplayName="Mapeamento do botão PF" sap2010:WorkflowViewState.IdRef="Find_Element_5" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoPF" selector="&quot;pf&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Mapeamento do botão PJ" sap2010:WorkflowViewState.IdRef="Find_Element_6" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoPJ" selector="&quot;pj&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Mapeamento do Nome/Razão" sap2010:WorkflowViewState.IdRef="Find_Element_7" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoNomeRazao" selector="&quot;nomeRazao&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Mapeamento CPF/CNPJ" sap2010:WorkflowViewState.IdRef="Find_Element_8" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoCpfCnpj" selector="&quot;cpfCnpj&quot;" waiting_time="1000" />
+            <jwf:Find_Element DisplayName="Mapeamento do botão Enviar" sap2010:WorkflowViewState.IdRef="Find_Element_9" InstanceBrowser="webBot" by="ID" ensure_clickable="False" ensure_visible="False" instance_element="BotaoEnviar" selector="&quot;btnEnviar&quot;" waiting_time="1000" />
+          </Sequence>
+        </ActivityAction>
+      </jwe:Element_Library.Body>
+    </jwe:Element_Library>
+    <jpf:ForEach sap2010:Annotation.AnnotationText="Pega cada fornecedor da lista e faz o cadastro um por um, automaticamente." sap2010:WorkflowViewState.IdRef="ForEach_1" item="linha" values="listaFornecedores">
+      <jpf:ForEach.Body>
+        <ActivityAction x:TypeArguments="x:String">
+          <Sequence DisplayName="Body" sap2010:WorkflowViewState.IdRef="Sequence_5">
+            <jwf1:Form_Element_Action_Web Element="{x:Null}" element_instance="{x:Null}" instance_element="{x:Null}" text="{x:Null}" value="{x:Null}" sap2010:Annotation.AnnotationText="Preenche os dados de CADA fornecedor no formulario de cadastro." DisplayName="Entrada dos dados do Fornecedor" sap2010:WorkflowViewState.IdRef="Form_Element_Action_Web_2" button="Left" by="Index" click_before="False" clicks="One" empty_field="False" interval="0" interval_between_clicks="0" type="Kb_Type" wait_after="300" with_spaces="True">
+              <jwf1:Form_Element_Action_Web.Body>
+                <ActivityAction x:TypeArguments="x:String">
+                  <Sequence DisplayName="Action list" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                    <jpi:If_Container sap2010:Annotation.AnnotationText="Função que verifica se o cliente é PJ ou PF." DisplayName="Verifica se o cliente e PF ou PJ" sap2010:WorkflowViewState.IdRef="If_Container_1">
+                      <jpi:If_Container.Body>
+                        <ActivityAction x:TypeArguments="x:String">
+                          <Sequence DisplayName="Conditional Structure" sap2010:WorkflowViewState.IdRef="Sequence_8">
+                            <jpi1:If DisplayName="If Condition" sap2010:WorkflowViewState.IdRef="If_1" condition="linha[0]== &quot;PF&quot;">
+                              <jpi1:If.Body>
+                                <ActivityAction x:TypeArguments="x:String">
+                                  <Sequence DisplayName="Body" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                                    <jmc:Click DisplayName="Click in BotaoPF element" Element="BotaoPF" sap2010:WorkflowViewState.IdRef="Click_3" button="Left" clicks="One" interval_between_clicks="0" wait_after="300" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </jpi1:If.Body>
+                            </jpi1:If>
+                            <jpe:Else sap2010:WorkflowViewState.IdRef="Else_1">
+                              <jpe:Else.Body>
+                                <ActivityAction x:TypeArguments="x:String">
+                                  <Sequence DisplayName="Body" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                                    <jmc:Click DisplayName="Click in BotaoPJ " Element="BotaoPJ" sap2010:WorkflowViewState.IdRef="Click_4" button="Left" clicks="One" interval_between_clicks="0" wait_after="300" />
+                                  </Sequence>
+                                </ActivityAction>
+                              </jpe:Else.Body>
+                            </jpe:Else>
+                          </Sequence>
+                        </ActivityAction>
+                      </jpi:If_Container.Body>
+                    </jpi:If_Container>
+                    <jkt:Type_Into DisplayName="Type Into BotaoNomeRazao field" sap2010:WorkflowViewState.IdRef="Type_Into_3" click_before="False" element_instance="BotaoNomeRazao" empty_field="False" interval="0" text="linha[1]" type="Send_Keys" with_spaces="True" />
+                    <jlw:WriteLog sap2010:WorkflowViewState.IdRef="WriteLog_1" instance="loggerBot" message="linha[1]" typeLog="DEBUG" />
+                    <jkt:Type_Into DisplayName="Type Into BotaoCpfCnpj field" sap2010:WorkflowViewState.IdRef="Type_Into_4" click_before="False" element_instance="BotaoCpfCnpj" empty_field="False" interval="0" text="linha[2]" type="Send_Keys" with_spaces="True" />
+                    <jmc:Click DisplayName="Click in BotaoEnviar element" Element="BotaoEnviar" sap2010:WorkflowViewState.IdRef="Click_5" button="Left" clicks="One" interval_between_clicks="0" wait_after="300" />
+                  </Sequence>
+                </ActivityAction>
+              </jwf1:Form_Element_Action_Web.Body>
+            </jwf1:Form_Element_Action_Web>
+          </Sequence>
+        </ActivityAction>
+      </jpf:ForEach.Body>
+    </jpf:ForEach>
+    <jww:Wait sap2010:WorkflowViewState.IdRef="Wait_1" InstanceBrowser="webBot" wait_time="3000" />
+    <sads:DebugSymbol.Symbol>dxxDOlxSUEFcRm9ybmVjZWRvcmVzXEJvdC54YW1sCRcDcA4CAQEYBRiTBAIBCRkFGa4EAgEIGgUlGwIBByYFMSQCAQYyBTLEAwIBBTMFPxsCAQRABW0TAgEDbgVuZAIBAg==</sads:DebugSymbol.Symbol>
+  </Sequence>
+  <sap2010:WorkflowViewState.ViewStateManager>
+    <sap2010:ViewStateManager>
+      <sap2010:ViewStateData Id="LoggerConfig_1" sap:VirtualizedContainerService.HintSize="510.4,213.6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="OpenBrowser_1" sap:VirtualizedContainerService.HintSize="510.4,195.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Find_Element_1" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_2" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_3" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_4" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Sequence_2" sap:VirtualizedContainerService.HintSize="222.4,958.4">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Element_Library_1" sap:VirtualizedContainerService.HintSize="510.4,76">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Type_Into_1" sap:VirtualizedContainerService.HintSize="340.8,125.6" />
+      <sap2010:ViewStateData Id="Type_Into_2" sap:VirtualizedContainerService.HintSize="340.8,125.6" />
+      <sap2010:ViewStateData Id="Click_1" sap:VirtualizedContainerService.HintSize="340.8,82.4" />
+      <sap2010:ViewStateData Id="Click_2" sap:VirtualizedContainerService.HintSize="340.8,82.4" />
+      <sap2010:ViewStateData Id="Sequence_3" sap:VirtualizedContainerService.HintSize="363.2,660.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Form_Element_Action_Web_1" sap:VirtualizedContainerService.HintSize="510.4,76">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Read_Excel_1" sap:VirtualizedContainerService.HintSize="510.4,193.6">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Find_Element_5" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_6" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_7" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_8" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Find_Element_9" sap:VirtualizedContainerService.HintSize="200,178.4" />
+      <sap2010:ViewStateData Id="Sequence_4" sap:VirtualizedContainerService.HintSize="222.4,1176.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Element_Library_2" sap:VirtualizedContainerService.HintSize="510.4,1276.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Click_3" sap:VirtualizedContainerService.HintSize="200,82.4" />
+      <sap2010:ViewStateData Id="Sequence_7" sap:VirtualizedContainerService.HintSize="222.4,207.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_1" sap:VirtualizedContainerService.HintSize="420.8,311.2" />
+      <sap2010:ViewStateData Id="Click_4" sap:VirtualizedContainerService.HintSize="200,82.4" />
+      <sap2010:ViewStateData Id="Sequence_9" sap:VirtualizedContainerService.HintSize="222.4,207.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Else_1" sap:VirtualizedContainerService.HintSize="420.8,300" />
+      <sap2010:ViewStateData Id="Sequence_8" sap:VirtualizedContainerService.HintSize="443.2,776">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="If_Container_1" sap:VirtualizedContainerService.HintSize="400,108.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Type_Into_3" sap:VirtualizedContainerService.HintSize="400,125.6" />
+      <sap2010:ViewStateData Id="WriteLog_1" sap:VirtualizedContainerService.HintSize="400,168" />
+      <sap2010:ViewStateData Id="Type_Into_4" sap:VirtualizedContainerService.HintSize="400,125.6" />
+      <sap2010:ViewStateData Id="Click_5" sap:VirtualizedContainerService.HintSize="400,82.4" />
+      <sap2010:ViewStateData Id="Sequence_6" sap:VirtualizedContainerService.HintSize="422.4,895.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Form_Element_Action_Web_2" sap:VirtualizedContainerService.HintSize="400,76">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Sequence_5" sap:VirtualizedContainerService.HintSize="422.4,200.8">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="ForEach_1" sap:VirtualizedContainerService.HintSize="510.4,103.2">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsAnnotationDocked">False</x:Boolean>
+            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="Wait_1" sap:VirtualizedContainerService.HintSize="510.4,96.8" />
+      <sap2010:ViewStateData Id="Sequence_1" sap:VirtualizedContainerService.HintSize="532.8,2636">
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+      </sap2010:ViewStateData>
+      <sap2010:ViewStateData Id="JornadaRPAStudio.Workflow_1" sap:VirtualizedContainerService.HintSize="572.8,2716" />
+    </sap2010:ViewStateManager>
+  </sap2010:WorkflowViewState.ViewStateManager>
+</Activity>

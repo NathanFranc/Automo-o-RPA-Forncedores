@@ -1,0 +1,192 @@
+1758046164837	geckodriver	INFO	Listening on 127.0.0.1:52441
+1758046167961	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileZR9SjR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758046169126	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758046169276	Marionette	INFO	Listening on port 52454
+Read port: 52454
+1758046169512	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758046194953	Marionette	INFO	Stopped listening on port 52454
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758046292950	geckodriver	INFO	Listening on 127.0.0.1:52552
+1758046296049	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileqdeQOI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758046297030	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758046297134	Marionette	INFO	Listening on port 52564
+Read port: 52564
+1758046297285	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758046310104	Marionette	INFO	Stopped listening on port 52564
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758046328442	geckodriver	INFO	Listening on 127.0.0.1:52601
+1758046331570	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofilewKXBYD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758046332643	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758046333020	Marionette	INFO	Listening on port 52611
+Read port: 52611
+1758046333163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758046339897	Marionette	INFO	Stopped listening on port 52611
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758047834933	geckodriver	INFO	Listening on 127.0.0.1:53433
+1758047838067	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileMPsP5M"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758047839072	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758047839174	Marionette	INFO	Listening on port 53445
+Read port: 53445
+1758047839292	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758047862636	Marionette	INFO	Stopped listening on port 53445
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758047877912	geckodriver	INFO	Listening on 127.0.0.1:53479
+1758047881019	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofiled47qDk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758047882047	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758047882174	Marionette	INFO	Listening on port 53491
+Read port: 53491
+1758047882335	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758047920825	Marionette	INFO	Stopped listening on port 53491
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758048233673	geckodriver	INFO	Listening on 127.0.0.1:53674
+1758048236816	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileeepvMQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758048237848	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758048237995	Marionette	INFO	Listening on port 53686
+Read port: 53686
+1758048238197	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758048259352	Marionette	INFO	Stopped listening on port 53686
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758048344175	geckodriver	INFO	Listening on 127.0.0.1:53814
+1758048347266	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileTgrr2L"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758048348498	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758048348783	Marionette	INFO	Listening on port 53826
+Read port: 53826
+1758048349043	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758048372175	Marionette	INFO	Stopped listening on port 53826
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758048393119	geckodriver	INFO	Listening on 127.0.0.1:53876
+1758048396226	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofilerT1nL4"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758048397238	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758048397381	Marionette	INFO	Listening on port 53889
+Read port: 53889
+1758048397561	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758048417068	Marionette	INFO	Stopped listening on port 53889
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758048800466	geckodriver	INFO	Listening on 127.0.0.1:54104
+1758048803575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileZ4EPwB"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758048804633	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758048804799	Marionette	INFO	Listening on port 54116
+Read port: 54116
+1758048804999	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758048826142	Marionette	INFO	Stopped listening on port 54116
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/shared/webdriver/Certificates.sys.mjs, line 79: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758050574178	geckodriver	INFO	Listening on 127.0.0.1:54817
+1758050577285	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofile2Wd2XK"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758050578282	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758050578390	Marionette	INFO	Listening on port 54828
+Read port: 54828
+1758050578546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758050604621	Marionette	INFO	Stopped listening on port 54828
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758050645224	geckodriver	INFO	Listening on 127.0.0.1:54875
+1758050648337	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-private" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofilexX1YEX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758050649375	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758050649545	Marionette	INFO	Listening on port 54887
+Read port: 54887
+1758050649746	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758050659962	Marionette	INFO	Stopped listening on port 54887
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
+1758050678196	geckodriver	INFO	Listening on 127.0.0.1:54920
+1758050681309	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\JEFFER~1\\AppData\\Local\\Temp\\rust_mozprofileehClWZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1758050682307	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1758050682412	Marionette	INFO	Listening on port 54930
+Read port: 54930
+1758050682546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://jornadarpa.com.br."
+1758050706587	Marionette	INFO	Stopped listening on port 54930
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+JavaScript error: resource://services-settings/RemoteSettingsClient.sys.mjs, line 102: Error: Unknown callback
